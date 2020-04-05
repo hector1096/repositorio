@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="liga_de_futbol.xsl"?>
+<!DOCTYPE liga
+[
+	<!ELEMENT liga (jugador*,equipo*)>
+		<!ELEMENT jugador (cod, nombre, fecha, posicion, club)>
+			<!ELEMENT cod (#PCDATA)>
+			<!ELEMENT nombre (#PCDATA)>
+			<!ELEMENT fecha (#PCDATA)>
+			<!ELEMENT posicion (#PCDATA)>
+			<!ELEMENT club (#PCDATA)>
+		<!ELEMENT equipo (codE, nombreE, estadio, aforo, año)>
+			<!ELEMENT codE (#PCDATA)>
+			<!ELEMENT nombreE (#PCDATA)>
+			<!ELEMENT estadio (#PCDATA)>
+			<!ELEMENT aforo (#PCDATA)>
+			<!ELEMENT año (#PCDATA)>
+		
+				
+]>
+
+<liga>
+	<jugador>
+		<cod>100</cod>
+		<nombre>David Villa</nombre>		
+		<fecha>3/12/1981</fecha>
+		<posicion>Delantero</posicion>
+		<club>NYC FC</club>
+	</jugador>
+	<jugador>
+		<cod>101</cod>
+		<nombre>Andrea Pirlo</nombre>		
+		<fecha>19/5/2979</fecha>
+		<posicion>Centrocampista</posicion>
+		<club>NYC FC</club>
+	</jugador>
+		<jugador>
+		<cod>102</cod>
+		<nombre>Kaká</nombre>		
+		<fecha>22/4/1982</fecha>
+		<posicion>Centrocampista</posicion>
+		<club>Orlando City</club>
+	</jugador>
+		<jugador>
+		<cod>103</cod>
+		<nombre>Steven Gerrard</nombre>		
+		<fecha>30/5/1980</fecha>
+		<posicion>Centrocampista</posicion>
+		<club>NYC FC</club>
+	</jugador>
+	
+	
+	
+	<equipo>
+		<codE>MLS01</codE>
+		<nombreE>NYC FC</nombreE>		
+		<estadio>Yankee Stadium</estadio>
+		<aforo>52.235</aforo>
+		<año>2013</año>
+	</equipo>
+	<equipo>
+		<codE>MLS02</codE>
+		<nombreE>Orlando City</nombreE>		
+		<estadio>Citrus Bowl</estadio>
+		<aforo>70.188</aforo>
+		<año>2010</año>
+	</equipo>
+	<equipo>
+		<codE>MLS03</codE>
+		<nombreE>L.A. Galaxy</nombreE>		
+		<estadio>StubHub Center</estadio>
+		<aforo>27.000</aforo>
+		<año>1996</año>
+	</equipo>
+
+
+
+
+
+
+</liga>

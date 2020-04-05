@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE personajes
+[
+	<!ELEMENT personajes (personaje*)>
+		<!ELEMENT personaje (imagen, nombre, altura, peso, pelo, lugar)>
+			<!ELEMENT imagen (#PCDATA)>
+			<!ELEMENT nombre (#PCDATA)>
+			<!ELEMENT altura (#PCDATA)>
+			<!ELEMENT peso (#PCDATA)>
+			<!ELEMENT pelo (#PCDATA)>
+			<!ELEMENT lugar (#PCDATA)>
+			
+				<!ATTLIST pelo color CDATA #REQUIRED>
+				
+]>
+
