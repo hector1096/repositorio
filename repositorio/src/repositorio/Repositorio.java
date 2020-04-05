@@ -17,6 +17,8 @@ public class Repositorio {
     public static void main(String[] args) {
             System.out.print("\n Hola[" ); 
              System.out.print("\n Hola[" ); 
+              System.out.print("\n que dices[" ); 
+               System.out.print("\n Como estas[" ); 
     }
     
 }
